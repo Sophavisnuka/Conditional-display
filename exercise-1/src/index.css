@@ -9,6 +9,8 @@
 
 * {
   box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
 }
 
 body {
@@ -109,3 +111,19 @@ body {
 .warning {
   color: var(--secondary-color);
 }
+.statistic {
+  border-radius: 10px;
+  border: 2px solid #00bdef;
+  background-color: transparent;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.avg, .min, .max {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
